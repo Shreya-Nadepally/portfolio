@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarEase AI - Nadepally Shreya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        Outfit: ["Outfit", "sans-serif"],
+                        Ovo: ["Ovo", "serif"]
+                    },
+                    colors: {
+                        darkTheme: '#11001F',
+                        darkHover: '#2a004a'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Ovo&display=swap" rel="stylesheet">
+</head>
+<body class="font-Outfit dark:bg-darkTheme dark:text-white bg-gray-50">
+    <!-- Header -->
+    <nav class="w-full px-5 lg:px-8 xl:px-[8%] py-4 bg-white dark:bg-darkTheme shadow-sm">
+        <div class="flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-bold font-Ovo">
+                <span class="dark:text-white">Shreya <span class="text-purple-600">.</span></span>
+            </a>
+            <a href="index.html" class="px-6 py-2 border border-gray-300 dark:border-white/30 rounded-full hover:bg-gray-100 dark:hover:bg-darkHover">
+                ← Back to Portfolio
+            </a>
+        </div>
+    </nav>
+
+    <!-- Project Details -->
+    <div class="max-w-6xl mx-auto px-5 lg:px-8 py-16">
+        <!-- Project Header -->
+        <div class="mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold font-Ovo mb-4">SolarEase AI</h1>
+            <p class="text-xl text-gray-600 dark:text-gray-300 mb-6">Smart Solar Panel Management Platform</p>
+            
+            <!-- Tech Stack Tags -->
+            <div class="flex flex-wrap gap-2 mb-8">
+                <span class="px-4 py-2 bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 rounded-full text-sm font-medium">MERN Stack</span>
+                <span class="px-4 py-2 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium">MongoDB</span>
+                <span class="px-4 py-2 bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 rounded-full text-sm font-medium">Express.js</span>
+                <span class="px-4 py-2 bg-cyan-100 dark:bg-cyan-900/30 text-cyan-700 dark:text-cyan-300 rounded-full text-sm font-medium">React.js</span>
+                <span class="px-4 py-2 bg-emerald-100 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-300 rounded-full text-sm font-medium">Node.js</span>
+                <span class="px-4 py-2 bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 rounded-full text-sm font-medium">AI/ML</span>
+                <span class="px-4 py-2 bg-pink-100 dark:bg-pink-900/30 text-pink-700 dark:text-pink-300 rounded-full text-sm font-medium">Groq/Llama</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/Shreya-Nadepally/solarease-ai" target="_blank" 
+                   class="px-8 py-3 bg-gradient-to-r from-purple-600 to-orange-500 text-white rounded-full font-medium hover:shadow-lg transition-all">
+                    View on GitHub →
+                </a>
+            </div>
+        </div>
+
+        <!-- Project Description -->
+        <div class="bg-white dark:bg-darkHover/50 rounded-2xl p-8 mb-8 shadow-sm">
+            <h2 class="text-2xl font-bold font-Ovo mb-4">About the Project</h2>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
+                SolarEase AI is a comprehensive full-stack MERN application designed to revolutionize solar panel management. 
+                The platform integrates cutting-edge AI technology to provide intelligent solutions for solar energy users.
+            </p>
+            <p class="text-gray-700 dark:text-gray-300 leading-relaxed">
+                This project demonstrates advanced web development skills, AI integration, and real-world problem-solving 
+                capabilities in the renewable energy sector.
+            </p>
+        </div>
+
+        <!-- Key Features -->
+        <div class="bg-white dark:bg-darkHover/50 rounded-2xl p-8 mb-8 shadow-sm">
+            <h2 class="text-2xl font-bold font-Ovo mb-6">Key Features</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-purple-100 dark:bg-purple-900/30 rounded-full flex items-center justify-center">
+                        <span class="text-purple-600 dark:text-purple-400 text-xl">🤖</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">AI-Powered Chatbot</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Intelligent chatbot using Groq/Llama for instant customer support and troubleshooting</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center">
+                        <span class="text-blue-600 dark:text-blue-400 text-xl">📍</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">GPS-Based Dealer Matching</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Smart location-based system to connect users with nearby solar panel dealers</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
+                        <span class="text-green-600 dark:text-green-400 text-xl">📦</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">Real-Time Order Tracking</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Live tracking system for monitoring solar panel orders and installations</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-orange-100 dark:bg-orange-900/30 rounded-full flex items-center justify-center">
+                        <span class="text-orange-600 dark:text-orange-400 text-xl">🔧</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">Automated Repair Diagnosis</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">AI-driven diagnostic system for identifying and resolving solar panel issues</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-cyan-100 dark:bg-cyan-900/30 rounded-full flex items-center justify-center">
+                        <span class="text-cyan-600 dark:text-cyan-400 text-xl">🔐</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">OTP Authentication</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Secure user authentication system with OTP verification</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0 w-10 h-10 bg-pink-100 dark:bg-pink-900/30 rounded-full flex items-center justify-center">
+                        <span class="text-pink-600 dark:text-pink-400 text-xl">🎥</span>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">Video Tutorials</h3>
+                        <p class="text-gray-600 dark:text-gray-400 text-sm">Comprehensive video guides for installation and maintenance</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Implementation -->
+        <div class="bg-white dark:bg-darkHover/50 rounded-2xl p-8 shadow-sm">
+            <h2 class="text-2xl font-bold font-Ovo mb-6">Technical Implementation</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="font-semibold mb-2 text-purple-600 dark:text-purple-400">Frontend</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Built with React.js for a responsive and dynamic user interface with seamless user experience</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-blue-600 dark:text-blue-400">Backend</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Node.js and Express.js power the server-side logic with RESTful API architecture</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-green-600 dark:text-green-400">Database</h3>
+                    <p class="text-gray-700 dark:text-gray-300">MongoDB for flexible and scalable data storage with Mongoose ODM</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-orange-600 dark:text-orange-400">AI Integration</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Groq/Llama AI models for intelligent chatbot and automated troubleshooting</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-2 text-cyan-600 dark:text-cyan-400">Maps Integration</h3>
+                    <p class="text-gray-700 dark:text-gray-300">Google Maps API for location-based dealer matching and service area visualization</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-white dark:bg-darkTheme border-t border-gray-200 dark:border-gray-800 py-8 mt-16">
+        <div class="max-w-6xl mx-auto px-5 lg:px-8 text-center">
+            <a href="index.html" class="text-purple-600 dark:text-purple-400 hover:underline">← Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>
